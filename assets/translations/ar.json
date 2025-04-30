@@ -1,0 +1,27 @@
+{
+  "skip": "تخطى",
+  "arabic": "العربية",
+  "english": "English",
+  "no_internet_connections": "انت غير متصل بالإنترنت",
+  "select_language": "اختر اللغة",
+  "start_your_journey": "ابدء رحلتك",
+  "connect_us": "تواصل معنا",
+  "products": "المنتجات",
+  "submit_complaint": "ارسال شكوى",
+  "about_us": "عن تمويلى",
+  "name": "الاسم",
+  "phone": "رقم الهاتف",
+  "Message": "رسالتك",
+  "submit": "إرسال ",
+  "back_to_home": "العودة للرئيسية",
+  "submit_message_successfully": "لقد تم ارسال رسالتك بنجاح",
+  "name_empty_validation": "يرجى إدخال الاسم",
+  "name_error_validation": "يجب أن يحتوي الاسم على حرفين على الأقل (بالعربية أو الإنجليزية)",
+
+  "phone_empty_validation": "يرجى إدخال رقم الهاتف",
+  "message_empty_validation": "يرجى إدخال الرسالة",
+  "phone_error_validation": "يرجى إدخال رقم هاتف مصري صحيح",
+
+
+"current_language_name": "العربية"
+  }

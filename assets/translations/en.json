@@ -1,0 +1,26 @@
+{
+  "skip": "Skip",
+  "arabic": "Arabic",
+  "english": "English",
+  "no_internet_connections": "You are not connected to the internet",
+  "select_language": "Select Language",
+  "start_your_journey": "Start Your Journey",
+  "connect_us": "Contact Us",
+  "products": "Products",
+  "submit_complaint": "Submit Complaint",
+  "about_us": "About Us",
+  "name": "Name",
+  "phone": "Phone",
+  "Message": "Message",
+  "submit": "Submit",
+  "name_empty_validation": "Please enter your name",
+  "back_to_home": "Back to Home",
+  "name_error_validation": "Name must be at least 2 letters (Arabic or English)",
+
+  "phone_empty_validation": "Please enter your phone number",
+  "submit_message_successfully": "Your message submit successfully",
+  "message_empty_validation": "Please enter your message",
+  "phone_error_validation": "Enter a valid Egyptian phone number",
+  "current_language_name": "Arabic"
+
+}
