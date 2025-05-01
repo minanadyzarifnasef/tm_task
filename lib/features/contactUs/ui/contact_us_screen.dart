@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:tamweelytask/core/constants/string_constants.dart';
 import 'package:tamweelytask/core/theming/widgets/subtitle_text.dart';
-import 'package:tamweelytask/core/theming/widgets/title_text.dart';
 import 'package:tamweelytask/features/contactUs/ui/widgts/contact_form.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -25,6 +24,21 @@ class ContactUsScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+
+              SizedBox(height: 20.h,),
+              const ContactForm(),
+
+              SizedBox(height: 20.h,),
+
+              Row(
+                children: [
+                  const Expanded(child: Divider()),
+                  SizedBox(width: 8.w,),
+                  SubTitleText(text: "or_with".tr()),
+                  SizedBox(width: 8.w,),
+                  Expanded(child: Divider()),
+                ],
+              ),
               SizedBox(height: 20.h,),
               GestureDetector(
                 onTap: ()=>whatsapp("+201152204422"),
@@ -38,7 +52,7 @@ class ContactUsScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(height: 20.h,),
+              SizedBox(height: 10.h,),
               GestureDetector(
                 onTap: ()=>openEmailApp("asd@gmail.com"),
                 child: Row(
@@ -51,8 +65,6 @@ class ContactUsScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(height: 20.h,),
-              const ContactForm(),
             ],
           ),
         ),

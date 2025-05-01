@@ -14,27 +14,17 @@ class BottomSheetList extends StatelessWidget {
   const BottomSheetList({
     required this.value,
     required this.list,
-    required this.hint,
     required this.onChange,
     this.title,
-    this.titleHint,
     this.loading = false,
-    this.enable = true,
-    this.radio = true,
-    this.w,
     super.key,
   });
 
   final dynamic value;
   final dynamic list;
-  final String hint;
   final String? title;
-  final String? titleHint;
-  final bool radio;
   final Function(dynamic) onChange;
   final bool loading;
-  final bool enable;
-  final double? w;
 
   @override
   Widget build(BuildContext context) {
@@ -48,11 +38,11 @@ class BottomSheetList extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             TitleText(
-              text: titleHint ?? "",
+              text: title ?? "",
               fontSize: 18,
               color: fontColor,
             ),
-            if (loading) 
+            if (loading)
               SizedBox(height: 100.h,child: const Loader(color: primaryColor)),
             SizedBox(height: edge),
             if (!loading)
@@ -79,7 +69,7 @@ class BottomSheetList extends StatelessWidget {
                         margin: EdgeInsets.only(bottom: 0.5 * edge),
                         decoration: BoxDecoration(
                             color: whiteColor,
-                            borderRadius: BorderRadius.circular(radius*0.5),
+                            borderRadius: BorderRadius.circular(radius),
                             border: Border.all(
                                 color: value == item
                                     ? primaryColor
@@ -87,15 +77,12 @@ class BottomSheetList extends StatelessWidget {
                                 width: 1)),
                         child: Row(
                           children: [
-                            if(radio)
-                            Radio(value: value, groupValue: item, onChanged: (v)=>onChange(item),activeColor: primaryColor,),
-                            Expanded(
+                             Expanded(
                                 child: SubTitleText(
                                   text: item.getName(),
                                   color: fontColor,
                                   align: TextAlign.start,
                                 )),
-                            if(!radio)
                             Transform.rotate(angle: AppUtilities().isLTR? 3.14:0,child: SvgPicture.asset(arrowLeft),),
 
                           ],

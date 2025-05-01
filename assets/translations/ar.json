@@ -21,6 +21,11 @@
   "phone_empty_validation": "يرجى إدخال رقم الهاتف",
   "message_empty_validation": "يرجى إدخال الرسالة",
   "phone_error_validation": "يرجى إدخال رقم هاتف مصري صحيح",
+  "more": "المزيد",
+  "details": "التفاصيل",
+  "or_with": "او",
+
+  "complaint_type": "نوع الشكوى",
 
 
 "current_language_name": "العربية"

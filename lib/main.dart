@@ -1,11 +1,11 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:tamweelytask/features/complaints/logic/complaints_cubit.dart';
 import 'package:tamweelytask/tamweely_app.dart';
 
 import 'core/di/dependency_injection.dart';
 import 'core/routing/app_router.dart';
-import 'features/contactUs/logic/contact_us_cubit.dart';
 
 
 
@@ -15,12 +15,12 @@ void main() async {
   await setupGetIt();
 
   runApp(
-    //  MaterialApp()
-    MultiBlocProvider(
-      providers: [
-        BlocProvider(create: (_) => getIt<ContactUsCubit>()),
-      ],
-      child: EasyLocalization(
+      MultiBlocProvider(providers: [
+        BlocProvider(
+          create: (_) => getIt<ComplaintsCubit>(),
+
+        )
+      ], child: EasyLocalization(
         supportedLocales: const [
           Locale(
             'en',
@@ -36,7 +36,6 @@ void main() async {
         child: TamweelyApp(
           appRouter: AppRouter(),
         ),
-      ),
-    ),
+      ))
   );
 }

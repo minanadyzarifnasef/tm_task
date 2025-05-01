@@ -1,8 +1,9 @@
 import 'package:dio/dio.dart';
 
 import 'package:retrofit/retrofit.dart';
+import 'package:tamweelytask/features/products/data/models/products_response.dart';
 
-import '../../features/contactUs/data/models/contact_us_request_body.dart';
+import '../../features/complaints/data/models/complaint_types_response.dart';
 import 'api_constants.dart';
 
 part 'api_service.g.dart';
@@ -12,9 +13,10 @@ abstract class ApiService {
   factory ApiService(Dio dio,
       {String? baseUrl, ParseErrorLogger? errorLogger}) = _ApiService;
 
-  @GET(ApiConstants.submitContactUs)
-  Future<dynamic> submitMessage(
-      @Body() ContactUsRequestBody body
-      );
+  @GET(ApiConstants.getProducts)
+  Future<ProductsResponse> getProducts();
+
+  @GET(ApiConstants.getComplaintsType)
+  Future<ComplaintTypesResponse> getComplaintsType();
 
 }

@@ -6,11 +6,13 @@ import 'package:tamweelytask/core/helpers/navigate_extension.dart';
 import 'package:tamweelytask/core/theming/managers/color_manager.dart';
 import 'package:tamweelytask/core/theming/widgets/title_text.dart';
 
+import '../../helpers/app_utilities.dart';
+
 class GradientAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String title;
   final bool back;
 
-  const GradientAppBar({super.key, required this.title,required this.back});
+  const GradientAppBar({super.key, required this.title, required this.back});
 
   @override
   Widget build(BuildContext context) {
@@ -38,10 +40,9 @@ class GradientAppBar extends StatelessWidget implements PreferredSizeWidget {
                 padding: EdgeInsets.symmetric(horizontal: edge * 0.5),
                 child: GestureDetector(
                   onTap: () => context.pop(),
-                  child: SvgPicture.asset(
-                    arrowLeft,
-                    width: 10,
-                    colorFilter: const ColorFilter.mode(whiteColor, BlendMode.srcIn),
+                  child: Transform.rotate(
+                    angle: AppUtilities().isLTR ?0: 3.14 ,
+                    child: SvgPicture.asset(arrowLeft, width: 10, colorFilter: const ColorFilter.mode(whiteColor, BlendMode.srcIn)),
                   ),
                 ),
               )

@@ -107,20 +107,18 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
 
                           ),
                         ),
-                        AnimatedContainer(
-                          duration: const Duration(milliseconds: 200),
-                          width:animate?  180.w:0 , // Expands width when loading
-                          height: 40.w,
-                          decoration: BoxDecoration(
-                            color: primaryColor,
-                            borderRadius: BorderRadius.circular(radius),
-                          ),
-                          alignment: Alignment.center,
-                          child: GestureDetector(
-                            onTap: (){
-                              context.pushNamed(Routes.homeScreen);
-                            },
-                            child: AnimatedSwitcher(
+                        GestureDetector(
+                          onTap: ()=> context.pushNamed(Routes.homeScreen),
+                          child: AnimatedContainer(
+                            duration: const Duration(milliseconds: 200),
+                            width:animate?  180.w:0 , // Expands width when loading
+                            height: 40.w,
+                            decoration: BoxDecoration(
+                              color: primaryColor,
+                              borderRadius: BorderRadius.circular(radius),
+                            ),
+                            alignment: Alignment.center,
+                            child:  AnimatedSwitcher(
                               duration: const Duration(milliseconds: 200),
 
                               child:Center(
@@ -130,6 +128,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
                             ),
                           ),
                         ),
+
                         SizedBox(height: 60.h,)
 
                       ],
@@ -163,7 +162,6 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
         return BottomSheetList(
           value: selectedLanguage, //? "arabic_language".tr() : "english_language".tr(),
           list: languages,
-          hint: "hint",
           onChange: (v) {
 
             if (v.name.code == 'en') {
@@ -175,7 +173,6 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
 
           },
           title: "select_language".tr(),
-          titleHint: "select_language".tr(),
         );
       },
     );

@@ -2,8 +2,11 @@ import 'package:easy_localization/easy_localization.dart';
 
 class ApiConstants {
   //static const String apiBaseUrl = 'https://stage.api.gps-bank.com/';
-  static const String apiBaseUrl = 'https://api.staging.gps.com.eg/';
-  static const String submitContactUs = 'asd';
+  static const String apiBaseUrl = 'https://dummyjson.com/';
+  static const String submitContactUs = 'submitMessage';
+  static const String getProducts = 'products';
+  static const String getComplaintsType = 'recipes';
+  static const String submitComplaints = 'submitComplaints';
 
 }
 

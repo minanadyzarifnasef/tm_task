@@ -21,6 +21,10 @@
   "submit_message_successfully": "Your message submit successfully",
   "message_empty_validation": "Please enter your message",
   "phone_error_validation": "Enter a valid Egyptian phone number",
-  "current_language_name": "Arabic"
+  "current_language_name": "Arabic",
+  "details": "Details",
+  "complaint_type": "Complaint Type",
+  "or_with": "OR",
+  "more": "More"
 
 }
