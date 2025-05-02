@@ -1,6 +1,9 @@
 # Tamwelly Task
 
 A Flutter mobile application created as a test task demonstrating multiple Flutter development skills including UI, animations, state management with BLoC, responsive design, API integration, and offline handling.
+## 🎬 App Demo Video
+
+[![Watch the demo](screenshots/screen1.png)](screenshots/video.mp4)
 
 ## 📱 Screens Overview
 
