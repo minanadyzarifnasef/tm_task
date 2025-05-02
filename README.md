@@ -1,59 +1,90 @@
-# Tamweely Task - 
+# Tamwelly Task
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.13.8-blue.svg)](https://flutter.dev)
-[![BLoC](https://img.shields.io/badge/State%20Management-BLoC-purple.svg)](https://bloclibrary.dev)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+A Flutter mobile application created as a test task demonstrating multiple Flutter development skills including UI, animations, state management with BLoC, responsive design, API integration, and offline handling.
 
-A Flutter application for Tamweel Microfinance with multi-language support, product catalog, complaint system, and company information.
+## 📱 Screens Overview
 
-![App Screenshot](screenshots/screen1.png)
+### 1. Splash Screen
+- Displays a loading animation simulating data loading.
+- ![Splash Screen](screenshots/screen1.png)
 
-## Features
-- **Splash Screen** with loading animation
-- **Multi-language** support (Arabic/English)
-- **Four Main Modules**:
-    - Contact Us form with validation
-    - Product catalog with responsive grid
-    - Complaint submission system
-    - Company information with interactive map
-- **State Management** using BLoC pattern
-- **Responsive Design** (phone, tablet layouts)
-- **Offline Detection** with top banner
-- **Deep Linking** for WhatsApp/Email contacts
+### 2. Intro Screen
+- Lottie animation with a welcome message.
+- Language selection dropdown and "Start" button.
+- ![Intro Screen](screenshots/screen2.png)
 
-## Screenshots
+### 3. Home Screen
+- Displays the company logo and four main navigation buttons:
+    1. Contact Us
+    2. Products
+    3. Submit Complaint
+    4. About Us
+- ![Home Screen](screenshots/screen3.png)
 
-| Splash Screen | Language Selection | Main Menu |
-|---------------|--------------------|-----------|
-| ![Splash](screenshots/screen1.png) | ![Language](screenshots/screen2.png) | ![Menu](screenshots/screen3.png) |
+---
 
-| Contact Us | Products (List) | Products (Grid) |
-|------------|-----------------|-----------------|
-| ![Contact](screenshots/screen4.png) | ![Products List](screenshots/screen6.png) | ![Products Grid](screenshots/screen7.png) |
+## 🔹 Contact Us Screen
+- Gradient app bar with a back button and title.
+- Contact form with validation.
+- Two quick contact methods:
+    - WhatsApp: opens WhatsApp message to the company number.
+    - Gmail: opens email intent.
+- ![Contact Us](screenshots/screen4.png)
 
-| Product Loading (Shimmer) |
-|--------------------------|
-| ![Loading](screenshots/screen5.png) | 
+---
 
-| Complaint Form | Complaint Types | About Us |
-|----------------|-----------------|----------|
-| ![Complaint](screenshots/screen8.png) | ![Complaint Types](screenshots/screen9.png) | ![About](screenshots/screen10.png) |
+## 🛍️ Products Screen
+- Fetches products from a dummy API.
+- Responsive design:
+    - 1 item per row on phones.
+    - 2 items on wide phones.
+    - 3 items on tablets.
+- Shimmer loading shown while fetching data.
+- State managed using BLoC.
+- ![Products Phone](screenshots/screen5.png)
+- ![Products Wide Phone](screenshots/screen6.png)
+- ![Products Tablet](screenshots/screen7.png)
 
-| Offline Banner |
-|----------------|
-| ![Offline](screenshots/screen11.png) |
+---
 
-## Technologies Used
-- **Frontend**: Flutter 3.13.8
-- **State Management**: BLoC Pattern
-- **Localization**: Flutter Intl
-- **Networking**: Dio for API calls
-- **Maps**: OpenStreetMap (Leaflet)
-- **UI**: Shimmer loading, Lottie animations
-- **Form Validation**: Flutter FormBuilder
+## 📩 Submit Complaint Screen
+- Form with validation for all inputs.
+- Dropdown for selecting complaint type fetched from dummy API via BLoC.
+- Submit button shows loading indicator during request.
+- ![Complaint Form](screenshots/screen8.png)
+- ![Complaint Submitted](screenshots/screen9.png)
 
-## Installation
-1. Ensure Flutter SDK is installed (>= 3.13.8)
-2. Clone the repository:
+---
+
+## 🏢 About Us Screen
+- Image slider with pictures from the company website.
+- Overview, mission, and vision sections.
+- Live map using **OpenStreetMap** to show company location (no Google API key required).
+- ![About Us](screenshots/screen10.png)
+
+---
+
+## 📶 Offline Banner
+- Across the app, a persistent top banner shows when internet is lost.
+- ![No Connection](screenshots/screen11.png)
+
+---
+
+## 🔧 Tech Stack
+
+- Flutter
+- BLoC (state management)
+- Lottie
+- OpenStreetMap
+- Shimmer effect
+- REST API integration
+- Responsive UI design
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repo:**
    ```bash
-   git clone https://github.com/yourusername/tamweely-task.git
+   git clone https://github.com/your-username/tamwelly-task.git
+   cd tamwelly-task
