@@ -5,21 +5,21 @@ A Flutter mobile application created as a test task demonstrating multiple Flutt
 ## 📱 Screens Overview
 
 ### 1. Splash Screen
-- Displays a loading animation simulating data loading.
-- ![Splash Screen](screenshots/screen1.png)
+Displays a loading animation simulating data loading.  
+<img src="screenshots/screen1.png" alt="Splash Screen" width="300"/>
 
 ### 2. Intro Screen
-- Lottie animation with a welcome message.
-- Language selection dropdown and "Start" button.
-- ![Intro Screen](screenshots/screen2.png)
+Lottie animation with a welcome message.  
+Language selection dropdown and "Start" button.  
+<img src="screenshots/screen2.png" alt="Intro Screen" width="300"/>
 
 ### 3. Home Screen
-- Displays the company logo and four main navigation buttons:
-    1. Contact Us
-    2. Products
-    3. Submit Complaint
-    4. About Us
-- ![Home Screen](screenshots/screen3.png)
+Displays the company logo and four main navigation buttons:
+1. Contact Us
+2. Products
+3. Submit Complaint
+4. About Us  
+   <img src="screenshots/screen3.png" alt="Home Screen" width="300"/>
 
 ---
 
@@ -29,7 +29,8 @@ A Flutter mobile application created as a test task demonstrating multiple Flutt
 - Two quick contact methods:
     - WhatsApp: opens WhatsApp message to the company number.
     - Gmail: opens email intent.
-- ![Contact Us](screenshots/screen4.png)
+
+<img src="screenshots/screen4.png" alt="Contact Us" width="300"/>
 
 ---
 
@@ -41,9 +42,10 @@ A Flutter mobile application created as a test task demonstrating multiple Flutt
     - 3 items on tablets.
 - Shimmer loading shown while fetching data.
 - State managed using BLoC.
-- ![Products Phone](screenshots/screen5.png)
-- ![Products Wide Phone](screenshots/screen6.png)
-- ![Products Tablet](screenshots/screen7.png)
+
+<img src="screenshots/screen5.png" alt="Products Phone" width="300"/>  
+<img src="screenshots/screen6.png" alt="Products Wide Phone" width="300"/>  
+<img src="screenshots/screen7.png" alt="Products Tablet" width="300"/>
 
 ---
 
@@ -51,8 +53,9 @@ A Flutter mobile application created as a test task demonstrating multiple Flutt
 - Form with validation for all inputs.
 - Dropdown for selecting complaint type fetched from dummy API via BLoC.
 - Submit button shows loading indicator during request.
-- ![Complaint Form](screenshots/screen8.png)
-- ![Complaint Submitted](screenshots/screen9.png)
+
+<img src="screenshots/screen8.png" alt="Complaint Form" width="300"/>  
+<img src="screenshots/screen9.png" alt="Complaint Submitted" width="300"/>
 
 ---
 
@@ -60,13 +63,15 @@ A Flutter mobile application created as a test task demonstrating multiple Flutt
 - Image slider with pictures from the company website.
 - Overview, mission, and vision sections.
 - Live map using **OpenStreetMap** to show company location (no Google API key required).
-- ![About Us](screenshots/screen10.png)
+
+<img src="screenshots/screen10.png" alt="About Us" width="300"/>
 
 ---
 
 ## 📶 Offline Banner
 - Across the app, a persistent top banner shows when internet is lost.
-- ![No Connection](screenshots/screen11.png)
+
+<img src="screenshots/screen11.png" alt="No Connection" width="300"/>
 
 ---
 
