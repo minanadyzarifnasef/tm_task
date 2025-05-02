@@ -25,19 +25,23 @@ A Flutter application for Tamweel Microfinance with multi-language support, prod
 
 | Splash Screen | Language Selection | Main Menu |
 |---------------|--------------------|-----------|
-| ![Splash](screen1.png) | ![Language](screen2.png) | ![Menu](screen3.png) |
+| ![Splash](screenshots/screen1.png) | ![Language](screenshots/screen2.png) | ![Menu](screenshots/screen3.png) |
 
 | Contact Us | Products (List) | Products (Grid) |
 |------------|-----------------|-----------------|
-| ![Contact](screen4.png) | ![Products List](screen6.png) | ![Products Grid](screen7.png) |
+| ![Contact](screenshots/screen4.png) | ![Products List](screenshots/screen6.png) | ![Products Grid](screenshots/screen7.png) |
+
+| Product Loading (Shimmer) |
+|--------------------------|
+| ![Loading](screenshots/screen5.png) | 
 
 | Complaint Form | Complaint Types | About Us |
 |----------------|-----------------|----------|
-| ![Complaint](screen8.png) | ![Complaint Types](screen9.png) | ![About](screen10.png) |
+| ![Complaint](screenshots/screen8.png) | ![Complaint Types](screenshots/screen9.png) | ![About](screenshots/screen10.png) |
 
 | Offline Banner |
 |----------------|
-| ![Offline](screen11.png) |
+| ![Offline](screenshots/screen11.png) |
 
 ## Technologies Used
 - **Frontend**: Flutter 3.13.8
