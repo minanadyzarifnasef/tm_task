@@ -10,6 +10,7 @@ import 'package:tamweelytask/features/home/ui/home_screen.dart';
 import 'package:tamweelytask/features/introduction/ui/welcome_screen.dart';
 import 'package:tamweelytask/features/products/logic/products_cubit.dart';
 
+import '../../features/aboutUs/ui/about_us_screen.dart';
 import '../../features/contactUs/ui/contact_us_screen.dart';
 import '../../features/introduction/ui/splash_screen.dart';
 import '../../features/products/ui/product_screen.dart';
@@ -25,6 +26,7 @@ class AppRouter {
 
       case Routes.welcomeScreen:
         return _buildRoute(const WelcomeScreen());
+
 
       case Routes.homeScreen:
         return _buildRoute(const HomeScreen());
@@ -52,7 +54,8 @@ class AppRouter {
         return _buildRoute(
             const SubmitComplaintScreen()
         );
-
+      case Routes.aboutUsScreen:
+        return _buildRoute( AboutUsScreen());
       default:
         return MaterialPageRoute(
           builder: (_) => const Scaffold(

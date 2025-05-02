@@ -25,6 +25,15 @@
   "details": "Details",
   "complaint_type": "Complaint Type",
   "or_with": "OR",
+  "company_overview": "Company Overview",
+  "company_overview_mess": "Tamweely focuses its efforts on empowering owners of medium, small, and micro-enterprises, as well as the younger generation of entrepreneurs, to build their desired future by providing the necessary support to turn their dreams and ambitions into tangible successes that positively impact their communities.",
+
+  "our_mission": "Our Mission",
+  "our_mission_mess": "The company ensures that all its financing solutions adhere to client protection principles by adopting clear policies based on the highest standards of responsibility and transparency, guaranteeing full support for clients.",
+
+  "our_vision": "Our Vision",
+  "our_vision_mess": "The upcoming economic development must be built upon the aspirations and ambitions of our youth. Our mission is to fuel their enthusiasm by providing financial support, enabling them to innovate and develop without limits.",
+
   "more": "More"
 
 }
