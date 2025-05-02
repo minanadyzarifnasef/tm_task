@@ -6,7 +6,7 @@
 
 A Flutter application for Tamweel Microfinance with multi-language support, product catalog, complaint system, and company information.
 
-![App Screenshot](screen1.png)
+![App Screenshot](screenshots/screen1.png)
 
 ## Features
 - **Splash Screen** with loading animation
