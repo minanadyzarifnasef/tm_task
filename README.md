@@ -5,7 +5,7 @@ A Flutter mobile application created as a test task demonstrating multiple Flutt
 ## 🎬 App Demo Video
 
 <a href="https://drive.google.com/file/d/1eBsOd7xaJ7gEaD82mz6AskrNglQQA43k/view?usp=sharing" target="_blank">
-  <img src="screenshots/screen1.png" alt="Watch the demo" width="300"/>
+  <img src="screenshots/video_screen.png" alt="Watch the demo" width="300"/>
 </a>
 
 ## 📱 Screens Overview
