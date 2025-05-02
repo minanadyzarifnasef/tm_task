@@ -1,9 +1,10 @@
 # Tamwelly Task
 
 A Flutter mobile application created as a test task demonstrating multiple Flutter development skills including UI, animations, state management with BLoC, responsive design, API integration, and offline handling.
+
 ## 🎬 App Demo Video
 
-[![Watch the demo]<img src="screenshots/screen1.png" alt="Splash Screen" width="300"/>](https://drive.google.com/file/d/1eBsOd7xaJ7gEaD82mz6AskrNglQQA43k/view?usp=sharing)
+[![Watch the demo](screenshots/screen1.png)](https://drive.google.com/file/d/1eBsOd7xaJ7gEaD82mz6AskrNglQQA43k/view?usp=sharing)
 
 ## 📱 Screens Overview
 
@@ -64,35 +65,4 @@ Displays the company logo and four main navigation buttons:
 
 ## 🏢 About Us Screen
 - Image slider with pictures from the company website.
-- Overview, mission, and vision sections.
-- Live map using **OpenStreetMap** to show company location (no Google API key required).
-
-<img src="screenshots/screen10.png" alt="About Us" width="300"/>
-
----
-
-## 📶 Offline Banner
-- Across the app, a persistent top banner shows when internet is lost.
-
-<img src="screenshots/screen11.png" alt="No Connection" width="300"/>
-
----
-
-## 🔧 Tech Stack
-
-- Flutter
-- BLoC (state management)
-- Lottie
-- OpenStreetMap
-- Shimmer effect
-- REST API integration
-- Responsive UI design
-
----
-
-## 🚀 Getting Started
-
-1. **Clone the repo:**
-   ```bash
-   git clone https://github.com/your-username/tamwelly-task.git
-   cd tamwelly-task
+- Overview, mission
