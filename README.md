@@ -8,6 +8,16 @@ A Flutter mobile application created as a test task demonstrating multiple Flutt
   <img src="screenshots/video_screen.png" alt="Watch the demo" width="300"/>
 </a>
 
+## 📥 Download APK
+
+You can download the APK from the following link:
+
+[Download Tamwelly Task APK](https://drive.google.com/file/d/1Nrt8y8lM0TpOlsrSCqqNhFLt6MNHu1ax/view?usp=sharing)
+
+## 📱 Target SDK
+
+This app targets **Android 14 (SDK 34)**, codenamed **"UpsideDownCake"**.
+
 ## 📱 Screens Overview
 
 ### 1. Splash Screen
