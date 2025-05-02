@@ -3,7 +3,7 @@
 A Flutter mobile application created as a test task demonstrating multiple Flutter development skills including UI, animations, state management with BLoC, responsive design, API integration, and offline handling.
 ## 🎬 App Demo Video
 
-[![Watch the demo](screenshots/screen1.png)](screenshots/video.mp4)
+[![Watch the demo]<img src="screenshots/screen1.png" alt="Splash Screen" width="300"/>](https://drive.google.com/file/d/1eBsOd7xaJ7gEaD82mz6AskrNglQQA43k/view?usp=sharing)
 
 ## 📱 Screens Overview
 
