@@ -1,0 +1,39 @@
+{
+  "skip": "Skip",
+  "arabic": "Arabic",
+  "english": "English",
+  "no_internet_connections": "You are not connected to the internet",
+  "select_language": "Select Language",
+  "start_your_journey": "Start Your Journey",
+  "connect_us": "Contact Us",
+  "products": "Products",
+  "submit_complaint": "Submit Complaint",
+  "about_us": "About Us",
+  "name": "Name",
+  "phone": "Phone",
+  "Message": "Message",
+  "submit": "Submit",
+  "name_empty_validation": "Please enter your name",
+  "back_to_home": "Back to Home",
+  "name_error_validation": "Name must be at least 2 letters (Arabic or English)",
+
+  "phone_empty_validation": "Please enter your phone number",
+  "submit_message_successfully": "Your message submit successfully",
+  "message_empty_validation": "Please enter your message",
+  "phone_error_validation": "Enter a valid Egyptian phone number",
+  "current_language_name": "Arabic",
+  "details": "Details",
+  "complaint_type": "Complaint Type",
+  "or_with": "OR",
+  "company_overview": "Company Overview",
+  "company_overview_mess": "Tamweely focuses its efforts on empowering owners of medium, small, and micro-enterprises, as well as the younger generation of entrepreneurs, to build their desired future by providing the necessary support to turn their dreams and ambitions into tangible successes that positively impact their communities.",
+
+  "our_mission": "Our Mission",
+  "our_mission_mess": "The company ensures that all its financing solutions adhere to client protection principles by adopting clear policies based on the highest standards of responsibility and transparency, guaranteeing full support for clients.",
+
+  "our_vision": "Our Vision",
+  "our_vision_mess": "The upcoming economic development must be built upon the aspirations and ambitions of our youth. Our mission is to fuel their enthusiasm by providing financial support, enabling them to innovate and develop without limits.",
+
+  "more": "More"
+
+}
